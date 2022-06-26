@@ -38,12 +38,12 @@ const App = () => {
             style={{ color: "white", textAlign: "center" }}
           >
             Copyright © 2022
-            <Link to="/">Cryptoverse Inc.</Link> <br />
+            <Link to="/"> CryptoTracker</Link> <br />
             All Rights Reserved.
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/cryptocurrencies">Cryptos</Link>
             <Link to="/news">News</Link>
           </Space>
         </div>
